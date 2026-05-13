@@ -26,7 +26,10 @@ There are several fairly simple steps in making a virtual environment. So if you
 ### 1. Start a command prompt
  - This is the first step, and not very difficult. If you are used to using a Windows machine, then you have probably done this more than once. 
  - Start by clicking on the windows icon (usually located on the far left of the toolbar). 
- - Type the command ```cmd.exe``` and press ```enter```
+ - Type the command ```cmd.exe``` and press ```enter``` or to start a terminal on a MAC
+ -- press ```Command + space``` to open spotlight
+ -- type ```terminal`` in the search
+ -- start the built-in terminal or use iterm
  - You have successfully started the command program when the black screen pops up on your screen. Note that this will often default to the working directory of the logged in user (c:\users\<logged-in-user-name> followed by a greater than sign, e.g. c:\users\owner>)
 ### 2. Navigate to the directory where you wish to create the virtual environment
  - If you want to create your virtual environment in the current directory, you need to do nothing at all.
