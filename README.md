@@ -27,10 +27,14 @@ There are several fairly simple steps in making a virtual environment. So if you
  - This is the first step, and not very difficult. If you are used to using a Windows machine, then you have probably done this more than once. 
  - Start by clicking on the windows icon (usually located on the far left of the toolbar). 
  - Type the command ```cmd.exe``` and press ```enter``` or to start a terminal on a MAC
- -- press ```Command + space``` to open spotlight
- -- type ```terminal``` in the search
- -- start the built-in terminal or use iterm
- - You have successfully started the command program when the black screen pops up on your screen. Note that this will often default to the working directory of the logged in user (c:\users\<logged-in-user-name> followed by a greater than sign, e.g. c:\users\owner>)
+a. press ```Command + space``` to open spotlight
+b. type ```terminal``` in the search
+c. start the built-in terminal or use iterm
+ - You have successfully started the command program when the black screen pops up on your screen. Note that this will often default to the working directory of the logged in user (c:\users\<logged-in-user-name> followed by a greater than sign, e.g. c:\users\owner>) on a MAC your will either see your-macbook:~ username$, where "your-macbook" is the name of your MAC and username is your username (mine says thomasmacbook:thomaszuckerscharff$), or on newer macs you might see username@your-macbook ~ %, again substitue your macbook name and your username for the currect prompt.</br>
+ -- <b>your‑MacBook</b> is your computer’s hostname (name).
+ -- <b>~</b> means you’re in your home directory.
+ -- <b>username</b> is your macOS username.
+ -- <b>$</b> or <b>%</b> is the “prompt character” showing you can type a command.
 ### 2. Navigate to the directory where you wish to create the virtual environment
  - If you want to create your virtual environment in the current directory, you need to do nothing at all.
  - If you want to create your virtual environment in another directory, you need to use the CD command to navigate to that directory before going forward. For instance, if you want to create the virtual directory in c:\users\owner\documents, use the command ```cd Documents```, or ```cd c:\users\owner\documents```.
