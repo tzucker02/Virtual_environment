@@ -27,9 +27,9 @@ There are several fairly simple steps in making a virtual environment. So if you
  - This is the first step, and not very difficult. If you are used to using a Windows machine, then you have probably done this more than once. 
  - Start by clicking on the windows icon (usually located on the far left of the toolbar). 
  - Type the command ```cmd.exe``` and press ```enter``` or to start a terminal on a MAC
-a. press ```Command + space``` to open spotlight
-b. type ```terminal``` in the search
-c. start the built-in terminal or use iterm
+    - press ```Command + space``` to open spotlight
+    - type ```terminal``` in the search
+    - start the built-in terminal or use iterm
  - You have successfully started the command program when the black screen pops up on your screen. Note that this will often default to the working directory of the logged in user (c:\users\<logged-in-user-name> followed by a greater than sign, e.g. c:\users\owner>) on a MAC your will either see your-macbook:~ username$, where "your-macbook" is the name of your MAC and username is your username (mine says thomasmacbook:thomaszuckerscharff$), or on newer macs you might see username@your-macbook ~ %, again substitue your macbook name and your username for the currect prompt.</br>
  -- <b>your‑MacBook</b> is your computer’s hostname (name).
  -- <b>~</b> means you’re in your home directory.
