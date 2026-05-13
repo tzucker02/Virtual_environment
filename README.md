@@ -17,9 +17,9 @@ There a several reasons you should absolutely use virtual environments.
 Global installs lead to version mismatches, privilege issues (needing sudo), and hard-to-debug errors. Virtual environments sidestep these by containing everything per project.
 
 ## Cons
-- Extra Complexity: Beginners face a learning curve for setup, activation, and management, adding steps to daily workflows.
-- Disk Space: Each environment duplicates Python and packages, consuming storage—especially with large libraries like TensorFlow.
-- Activation Hassle: Forgetting to activate leads to errors; must repeat per session or project switch.
+- <b>Extra Complexity</b>: Beginners face a learning curve for setup, activation, and management, adding steps to daily workflows.
+- <b>Disk Space</b>: Each environment duplicates Python and packages, consuming storage—especially with large libraries like TensorFlow.
+- <b>Activation Hassle</b>: Forgetting to activate leads to errors; must repeat per session or project switch.
 
 ## How to create a virtual Environment
 There are several fairly simple steps in making a virtual environment. So if you have decided that this is the best course for you, they are as follows:
