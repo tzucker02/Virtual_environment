@@ -28,7 +28,7 @@ There are several fairly simple steps in making a virtual environment. So if you
  - Start by clicking on the windows icon (usually located on the far left of the toolbar). 
  - Type the command ```cmd.exe``` and press ```enter``` or to start a terminal on a MAC
  -- press ```Command + space``` to open spotlight
- -- type ```terminal`` in the search
+ -- type ```terminal``` in the search
  -- start the built-in terminal or use iterm
  - You have successfully started the command program when the black screen pops up on your screen. Note that this will often default to the working directory of the logged in user (c:\users\<logged-in-user-name> followed by a greater than sign, e.g. c:\users\owner>)
 ### 2. Navigate to the directory where you wish to create the virtual environment
@@ -36,15 +36,14 @@ There are several fairly simple steps in making a virtual environment. So if you
  - If you want to create your virtual environment in another directory, you need to use the CD command to navigate to that directory before going forward. For instance, if you want to create the virtual directory in c:\users\owner\documents, use the command ```cd Documents```, or ```cd c:\users\owner\documents```.
 ### 3. Use the command: 
 ```python -m venv <name of venv>``` at the command prompt
- - You are still in the ```cmd.exe``` command processor. 
+ - You are still in the ```cmd.exe``` command processor or ```terminal```. 
  - You should see a screen something akin to the screenshot below:
 <img width="289" height="160" alt="image" src="https://github.com/user-attachments/assets/2ae627b0-d1c4-4034-b480-af661753059a" align="center"/>
-
  - Type in the command as it appears above,  substituting the name of the virtual environment you wish to create.
 ### 4. Activate the virtual environment using the command 
-```./<virtual-environment-name>/Scripts/activate``` </b>
-(e.g. ./tz_medium/Scripts/activate or just tz_medium /Scripts/activate)</b>
-On a MAC issue the command</b> ```source myenv/bin/activate```
+```./<virtual-environment-name>/Scripts/activate``` </br>
+(e.g. ./tz_medium/Scripts/activate or just tz_medium /Scripts/activate)</br>
+On a MAC issue the command</br> ```source myenv/bin/activate```
 ### 5. Use the [requirements.txt](https://github.com/tzucker02/Virtual_environment/blob/main/requirements.txt) file to duplicate my current environment in your new virtual environment.
  - After the step above, activating your virtual environment, go to the next step.
  - Use the command
