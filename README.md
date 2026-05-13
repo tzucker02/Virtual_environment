@@ -39,8 +39,9 @@ There are several fairly simple steps in making a virtual environment. So if you
 
  - Type in the command as it appears above,  substituting the name of the virtual environment you wish to create.
 ### 4. Activate the virtual environment using the command 
-```./<virtual-environment-name>/Scripts/activate``` 
-(e.g. ./tz_medium/Scripts/activate or just tz_medium /Scripts/activate)
+```./<virtual-environment-name>/Scripts/activate``` </b>
+(e.g. ./tz_medium/Scripts/activate or just tz_medium /Scripts/activate)</b>
+On a MAC issue the command</b> ```source myenv/bin/activate```
 ### 5. Use the [requirements.txt](https://github.com/tzucker02/Virtual_environment/blob/main/requirements.txt) file to duplicate my current environment in your new virtual environment.
  - After the step above, activating your virtual environment, go to the next step.
  - Use the command
