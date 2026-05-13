@@ -1,5 +1,4 @@
 # Create a virtual environment for each Python Project
-creating a virtual environment for your python projects
 
 Virtual environments in Python create isolated spaces for your projects, preventing package conflicts and keeping your system Python clean. They're essential for managing dependencies reliably across different tasks.
 
