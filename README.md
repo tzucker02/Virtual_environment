@@ -43,7 +43,7 @@ There are several fairly simple steps in making a virtual environment. So if you
  - You are still in the ```cmd.exe``` command processor or ```terminal```. 
  - You should see a screen something akin to the screenshot below:</br>
 <!-- ||| -->
-<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/2ae627b0-d1c4-4034-b480-af661753059a">|<img width="300" height="200" alt="mac terminal" src="https://github.com/user-attachments/assets/920bda3d-750e-4a37-acb7-7a3f8cfe72cc" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/2ae627b0-d1c4-4034-b480-af661753059a"><img width="300" height="200" alt="mac terminal" src="https://github.com/user-attachments/assets/920bda3d-750e-4a37-acb7-7a3f8cfe72cc" />
 
 
 </br>
