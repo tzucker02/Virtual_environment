@@ -38,7 +38,7 @@ There are several fairly simple steps in making a virtual environment. So if you
 ### 4. Activate the virtual environment using the command 
 ```./<virtual-environment-name>/Scripts/activate``` 
 (e.g. ./tz_medium/Scripts/activate or just tz_medium /Scripts/activate)
-### 5. Use the [requirements.txt](https://github.com/tzucker02/Virtual_environment/blob/main/requirements.txt) file to duplicate my current environment in your new virtual environment.
+### 5. Use the [requirements.txt](https://github.com/tzucker02/Virtual_environment/raw/main/requirements.txt) file to duplicate my current environment in your new virtual environment.
  - After the step above, activating your virtual environment, go to step b.
  - Use the command
 ```pip install -r requirements.txt```
