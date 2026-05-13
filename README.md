@@ -3,13 +3,14 @@
 Virtual environments in Python create isolated spaces for your projects, preventing package conflicts and keeping your system Python clean. They're essential for managing dependencies reliably across different tasks.
 
 I am compiling some pros and cons to having a virtual environment for each Python project you start. So far here is what I have:
+<p><i>(NOTE: This written for users of Windows OS boxes. I will be writing more for MAC users)</i></p>
 
 ## Pros
 There a several reasons you should absolutely use virtual environments. 
 
-- Dependency Isolation: Different projects can use specific package versions (e.g., one needs requests 2.25, another 2.31) without clashes.
-- System Protection: Avoids polluting the global Python installation, which could break OS tools or get overwritten during updates.
-- Reproducibility: Pin exact dependencies via requirements.txt, making it easy to replicate setups for teams or deployment.
+- <b>Dependency Isolation</b>: Different projects can use specific package versions (e.g., one needs requests 2.25, another 2.31) without clashes.
+- <b>System Protection</b>: Avoids polluting the global Python installation, which could break OS tools or get overwritten during updates.
+- <b>Reproducibility</b>: Pin exact dependencies via requirements.txt, making it easy to replicate setups for teams or deployment.
 
 Global installs lead to version mismatches, privilege issues (needing sudo), and hard-to-debug errors. Virtual environments sidestep these by containing everything per project.
 
