@@ -2,7 +2,7 @@
 
 Virtual environments in Python create isolated spaces for your projects, preventing package conflicts and keeping your system Python clean. They're essential for managing dependencies reliably across different tasks.
 
-I am compiling some pros and cons to having a virtual environment for each Python project you start. So far here is whhat I have:
+I am compiling some pros and cons to having a virtual environment for each Python project you start. So far here is what I have:
 
 ## Pros
 There a several reasons you should absolutely use virtual environments. 
