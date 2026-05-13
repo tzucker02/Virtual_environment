@@ -38,7 +38,7 @@ There are several fairly simple steps in making a virtual environment. So if you
 ```python -m venv <name of venv>``` at the command prompt
  - You are still in the ```cmd.exe``` command processor or ```terminal```. 
  - You should see a screen something akin to the screenshot below:
-<img width="289" height="160" alt="image" src="https://github.com/user-attachments/assets/2ae627b0-d1c4-4034-b480-af661753059a" align="center"/>
+<img width="289" height="160" alt="image" src="https://github.com/user-attachments/assets/2ae627b0-d1c4-4034-b480-af661753059a" align="center"/></br>
  - Type in the command as it appears above,  substituting the name of the virtual environment you wish to create.
 ### 4. Activate the virtual environment using the command 
 ```./<virtual-environment-name>/Scripts/activate``` </br>
